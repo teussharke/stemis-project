@@ -65,6 +65,16 @@
 
 <script>
 
+    // import { ref } from 'vue'
+    // import { userStore} from 'vuex'
+
+    // export default {
+    //     setup() {
+    //         const login_form = ref ({})
+    //         const register_form = ref ({})
+    //         const store = userStore;
+    //     }
+    // }
 
 </script>
 
@@ -113,6 +123,10 @@
 
 
     .form{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         
         padding: 50px 30px;
         -webkit-transition:-webkit-transform 1.2s ease-in-out;
